@@ -42,3 +42,17 @@ resultCalcul.addEventListener('click', function() {
 });
 
 
+const buttonSound = document.querySelectorAll('button');
+const sound = document.querySelector('audio');
+
+function soundOn(){
+  sound.play();
+}
+
+buttonSound.forEach(button => {
+  button.addEventListener('click', soundOn);
+});
+
+
+
+

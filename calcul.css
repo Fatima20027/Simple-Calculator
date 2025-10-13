@@ -89,6 +89,10 @@ body{
   background-color: #edfbb9;
 }
 
+#result{
+  background-color: #acb4fc;
+}
+
 .gif{
   display: flex;
   justify-content: center;
