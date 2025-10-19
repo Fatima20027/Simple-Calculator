@@ -19,7 +19,7 @@ function calcResults(){
     if (!expression) return;
     let result = eval(expression);
     display.value = result;
-    return false;
+    //return false;
   }catch (error){
     console.error(error.message)
   }
